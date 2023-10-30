@@ -1,10 +1,10 @@
 import Description from "./Description";
 import Title from "./Title";
-const Content = () => {
+const Content = (props) => {
   return (
     <>
-      <Title />
-      <Description />
+      <Title name={props.name} />
+      <Description text={props.text} />
     </>
   );
 };

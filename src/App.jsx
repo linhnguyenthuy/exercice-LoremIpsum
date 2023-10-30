@@ -1,15 +1,21 @@
 import "./App.css";
 import Content from "./components/Content";
+
 const App = () => {
-  <>
-    <Content
-      name="Lorem"
-      text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic assumenda aut eveniet, amet vel vero tempore temporibus. Quibusdam cum possimus officiis numquam natus, vero iusto reprehenderit. Placeat eligendi autem omnis.
-  Amet, velit! Provident, vel minima placeat aliquam, sint deserunt cum iure earum cumque perspiciatis nisi a magnam itaque sed impedit, rem repellat similique. Sapiente fugiat voluptatibus consequatur sit mollitia ad.
-  Maxime, architecto quibusdam cumque doloribus officiis doloremque aperiam porro inventore saepe earum necessitatibus quae dolorem quisquam nisi consectetur. Ad laudantium sit at ut, maiores sint delectus reiciendis cumque beatae sapiente.
-  return <>"
-    />
-  </>;
+  return (
+    <>
+      <Content
+        name="Lorem"
+        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. A recusandae illo autem. Cumque aspernatur vero, minima facere labore vitae. Autem assumenda reprehenderit repudiandae explicabo! Alias consequuntur impedit quis error odit."
+      />
+      <Content
+        name="Ipsum"
+        text="    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officiis quidem, doloremque, rem eligendi provident architecto illum vel quod deleniti beatae veniam aperiam quisquam? Maiores, alias quo? Cumque, esse repudiandae!
+    Qui consequatur cumque expedita reiciendis minus perspiciatis accusantium quasi quo obcaecati culpa! Eligendi quo fugiat totam sint? Illo, nihil. Pariatur distinctio tempora ab culpa. Et quisquam velit praesentium eos minima!
+    Deserunt nesciunt impedit, ad optio ipsam blanditiis ea beatae voluptatibus. Aliquam ullam nihil aliquid ipsum delectus quo debitis necessitatibus. Velit ullam laboriosam debitis autem sed magnam, porro fugiat impedit iste!"
+      />
+    </>
+  );
 };
 
 export default App;

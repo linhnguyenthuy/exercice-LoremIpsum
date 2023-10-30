@@ -1,4 +1,4 @@
 const Title = (props) => {
-  return <p>{props.name}</p>;
+  return <h1 id="name">{props.name}</h1>;
 };
 export default Title;
